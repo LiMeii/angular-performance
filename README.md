@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
-demo code for improving angular project performance:
+demo code for improving angular project performance, here some performance improving tips:
 
 - no 'ng eject' in angular6+, then how to config customer webpack configuration.
 - tree-shaking
