@@ -12,8 +12,4 @@ const dashboardRoute: Routes = [
 })
 
 export class DashboardModule {
-
-    unnecessaryFunction(){
-        console.log("this function ever been called!")
-    }
 }

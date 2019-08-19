@@ -10,9 +10,9 @@ module.exports = (config, options) => {
     new webpack.DefinePlugin({
       'APP_VERSION': JSON.stringify(pkg.version),
     }),
-    //new BundleAnalyzerPlugin(),
+  // new BundleAnalyzerPlugin(),
     new CopyPlugin([
-      { from: path.join(__dirname, "moackdata"), to: path.join(__dirname, "dist/angular-performance/moackdata") }
+      { from: path.join(__dirname, "mock-api"), to: path.join(__dirname, "dist/angular-performance/mock-api") }
     ])
   );
 
