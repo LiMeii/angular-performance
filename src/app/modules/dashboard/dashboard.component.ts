@@ -3,7 +3,6 @@ import { cube } from "../../shared/common-utility";
 
 @Component({
     templateUrl: "./dashboard.component.html"
-
 })
 
 export class DashboardComponent implements OnInit {
