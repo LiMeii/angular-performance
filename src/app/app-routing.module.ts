@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: "dashboard",
     loadChildren: "./modules/dashboard/dashboard.module#DashboardModule"
+  },
+  {
+    path: "deepUnderstandingAoT",
+    loadChildren: "./modules/deep-understanding-aot/deep-understanding-aot.module#DeepUnderstandingAoTModule"
   }
 ];
 
