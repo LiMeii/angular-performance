@@ -12,7 +12,8 @@ module.exports = (config, options) => {
     }),
   // new BundleAnalyzerPlugin(),
     new CopyPlugin([
-      { from: path.join(__dirname, "mock-api"), to: path.join(__dirname, "dist/angular-performance/mock-api") }
+      { from: path.join(__dirname, "mock-api"), to: path.join(__dirname, "dist/angular-performance/mock-api")},
+      { from: path.join(__dirname, "mock-data"), to: path.join(__dirname, "dist/angular-performance/mock-data")  }
     ])
   );
 

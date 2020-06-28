@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: "deepUnderstandingAoT",
     loadChildren: "./modules/deep-understanding-aot/deep-understanding-aot.module#DeepUnderstandingAoTModule"
+  },
+  {
+    path:"webworker",
+    loadChildren:"./modules/webworker/webworker.module#WebworkerModule"
   }
 ];
 
