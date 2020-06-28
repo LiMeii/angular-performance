@@ -16,6 +16,10 @@ export class WebworkerComponent implements OnInit {
             scope.result = e.data;
             console.log("this is calculate result " + e.data);
 
+            myWorker.terminate();
+
+            myWorker.postMessage([1,2]);
+
         }
     }
 
